@@ -7,7 +7,6 @@ import { PageHeader, Banner } from "../utils"
 const MenuPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h3>Menu</h3>
     <PageHeader img={menuImg}>
       <Banner title="menu" subtitle={`let's dig in`} />
     </PageHeader>
